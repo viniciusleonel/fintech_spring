@@ -1,8 +1,8 @@
 package com.fiap.fintech.domain.usuario;
 
-public record DadosDetalhamentoUsuario(String login, String email) {
+public record DadosDetalhamentoUsuario(Long id, String login, String email, Boolean ativo) {
 
     public DadosDetalhamentoUsuario(Usuario usuario){
-        this(usuario.getLogin(), usuario.getEmail());
+        this(usuario.getId(), usuario.getLogin(), usuario.getEmail(), usuario.getAtivo());
     }
 }

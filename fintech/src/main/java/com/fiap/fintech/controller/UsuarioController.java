@@ -1,10 +1,7 @@
 package com.fiap.fintech.controller;
 
 
-import com.fiap.fintech.domain.usuario.DadosDetalhamentoUsuario;
-import com.fiap.fintech.domain.usuario.DadosCadastroUsuario;
-import com.fiap.fintech.domain.usuario.Usuario;
-import com.fiap.fintech.domain.usuario.UsuarioRepository;
+import com.fiap.fintech.domain.usuario.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -34,8 +31,8 @@ public class UsuarioController {
 
     @GetMapping
     public ResponseEntity<Stream<DadosDetalhamentoUsuario>> listar() {
-        var usuario = repository.findAll().stream().map(DadosDetalhamentoUsuario::new);
-        return ResponseEntity.ok(usuario);
+        var usuarios = repository.findAll().stream().map(DadosDetalhamentoUsuario::new);
+        return ResponseEntity.ok(usuarios);
     }
 
     @GetMapping("/{id}")
@@ -44,11 +41,23 @@ public class UsuarioController {
         return ResponseEntity.ok(new DadosDetalhamentoUsuario(usuario));
     }
 
-//    @PutMapping
-//    @Transactional
-//    public ResponseEntity atualizar() {
-//
-//    }
+    @PutMapping
+    @Transactional
+    public ResponseEntity atualizar(@RequestBody @Valid DadosAtualizacaoUsuario dados) {
+        var usuario = repository.getReferenceById(dados.id());
+        usuario.atualizarInformacoes(dados);
+
+        return ResponseEntity.ok(new DadosDetalhamentoUsuario(usuario));
+    }
+
+    @DeleteMapping("/{id}")
+    @Transactional
+    public ResponseEntity deletar(@PathVariable Long id) {
+        var usuario = repository.getReferenceById(id);
+        usuario.excluir(usuario);
+
+        return ResponseEntity.noContent().build();
+    }
 
 
 }

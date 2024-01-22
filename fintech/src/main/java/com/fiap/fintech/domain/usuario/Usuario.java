@@ -23,11 +23,30 @@ public class Usuario {
     private String login;
     private String email;
     private String senha;
+    private Boolean ativo;
 
     public Usuario(DadosCadastroUsuario dados) {
+        this.ativo = true;
         this.login = dados.login();
         this.email = dados.email();
         this.senha = dados.senha();
+    }
+
+    public void atualizarInformacoes(DadosAtualizacaoUsuario dados) {
+        if (dados.login() != null) {
+            this.login = dados.login();
+        }
+        if (dados.email() != null) {
+            this.email = dados.email();
+        }
+        if (dados.senha() != null) {
+            this.senha = dados.senha();
+        }
+
+    }
+
+    public void excluir(Usuario usuario) {
+        this.ativo = false;
     }
 
 //    @Override
