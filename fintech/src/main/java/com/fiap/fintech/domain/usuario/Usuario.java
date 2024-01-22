@@ -36,7 +36,7 @@ public class Usuario implements UserDetails {
 
     @Override
     public boolean isAccountNonExpired() {
-        return ture;
+        return true;
     }
 
     @Override
