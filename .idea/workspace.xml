@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="Iniciando projeto fintech spring" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2bHf5QlYabMkZrzMziMWCF8ceS3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Vinícius Leonel/Documents/Estudos programação/Programas/Frameworks/Spring/fintech/fintech",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="FintechApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="fintech" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fiap.fintech.FintechApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-f644763e9732-1e16d6ec" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="" />
+      <created>1705876740499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705876740499</updated>
+      <workItem from="1705876741533" duration="4794000" />
+    </task>
+    <task id="LOCAL-00001" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705879759670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705879759670</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705879835614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705879835614</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705879970026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705879970026</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705880249387</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705880249387</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705881371734</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705881371734</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705881444765</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705881444765</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705881490812</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705881490812</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705881664456</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705881664456</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705881822487</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705881822487</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705882259301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705882259301</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705882346295</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705882346295</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Iniciando projeto fintech spring">
+      <option name="closed" value="true" />
+      <created>1705882508325</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705882508325</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Iniciando projeto fintech spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iniciando projeto fintech spring" />
+  </component>
+</project>
