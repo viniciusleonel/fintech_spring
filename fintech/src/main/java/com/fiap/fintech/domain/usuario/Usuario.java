@@ -8,4 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Usuario {
+
+    private Long id;
 }
