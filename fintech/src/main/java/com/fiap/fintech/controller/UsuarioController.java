@@ -31,9 +31,11 @@ public class UsuarioController {
 
     @GetMapping
     public ResponseEntity<Stream<DadosDetalhamentoUsuario>> listar() {
-        var usuarios = repository.findAll().stream().map(DadosDetalhamentoUsuario::new);
+        var usuarios = repository.findAllByAtivoTrue().stream().map(DadosDetalhamentoUsuario::new);
         return ResponseEntity.ok(usuarios);
     }
+
+
 
     @GetMapping("/{id}")
     public ResponseEntity detalhar(@PathVariable Long id){
