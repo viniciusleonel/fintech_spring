@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="criando CRUD Usuario no controller">
+    <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="criando requisição GET com método findAllByAtivoTrue">
+      <change afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/TratadorDeErros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/DadosCadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/DadosCadastroUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,7 +94,7 @@
       <updated>1705876740499</updated>
       <workItem from="1705876741533" duration="4794000" />
       <workItem from="1705931220987" duration="12622000" />
-      <workItem from="1706122503570" duration="1657000" />
+      <workItem from="1706122503570" duration="3013000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando projeto fintech spring">
       <option name="closed" value="true" />
@@ -208,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705957461572</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="criando requisição GET com método findAllByAtivoTrue">
+      <option name="closed" value="true" />
+      <created>1706125750772</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706125750773</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +237,8 @@
     <MESSAGE value="Iniciando projeto fintech spring" />
     <MESSAGE value="Iniciando criação do controller de usuarios" />
     <MESSAGE value="criando CRUD Usuario no controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando CRUD Usuario no controller" />
+    <MESSAGE value="criando requisição GET com método findAllByAtivoTrue" />
+    <option name="LAST_COMMIT_MESSAGE" value="criando requisição GET com método findAllByAtivoTrue" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
