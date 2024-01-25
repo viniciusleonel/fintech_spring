@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="criando requisição GET com método findAllByAtivoTrue">
-      <change afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/TratadorDeErros.java" afterDir="false" />
+    <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="tratando erros 404 e 500">
+      <change afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/AutenticacaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityConfigurations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/DadosCadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/DadosCadastroUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/TratadorDeErros.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/exception/TratadorDeErros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,31 +43,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.FintechApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Vinícius Leonel/Documents/Estudos programação/Programas/Frameworks/Spring/api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FintechApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vinícius Leonel/Documents/Estudos programação/Programas/Frameworks/Spring/api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vinícius Leonel\Documents\Estudos programação\Programas\Frameworks\Spring\fintech\fintech\src\main\resources\db\migration" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fiap.fintech.infra.exception" />
     </key>
   </component>
   <component name="RunManager">
@@ -94,7 +100,8 @@
       <updated>1705876740499</updated>
       <workItem from="1705876741533" duration="4794000" />
       <workItem from="1705931220987" duration="12622000" />
-      <workItem from="1706122503570" duration="3013000" />
+      <workItem from="1706122503570" duration="3890000" />
+      <workItem from="1706217622487" duration="6216000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando projeto fintech spring">
       <option name="closed" value="true" />
@@ -216,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706125750773</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="tratando erros 404 e 500">
+      <option name="closed" value="true" />
+      <created>1706126981842</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706126981842</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +253,8 @@
     <MESSAGE value="Iniciando criação do controller de usuarios" />
     <MESSAGE value="criando CRUD Usuario no controller" />
     <MESSAGE value="criando requisição GET com método findAllByAtivoTrue" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando requisição GET com método findAllByAtivoTrue" />
+    <MESSAGE value="tratando erros 404 e 500" />
+    <option name="LAST_COMMIT_MESSAGE" value="tratando erros 404 e 500" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
