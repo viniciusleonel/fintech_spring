@@ -13,7 +13,7 @@ public class AutenticacaoService implements UserDetailsService {
     private UsuarioRepository repository;
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return repository.findByLoginOrEmail(username, username);
+        return repository.findByEmail(username);
     }
 
 }
