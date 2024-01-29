@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="tratando erros 404 e 500">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/exception/TratadorDeErros.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/exception/TratadorDeErros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/resources/db/migration/V1__create-table-usuarios.sql" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/resources/db/migration/V1__create-table-usuarios.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/resources/db/migration/V2__alter-table-usuarios-add-column-email.sql" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/resources/db/migration/V2__alter-table-usuarios-add-column-email.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/DadosCadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/DadosCadastroUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
