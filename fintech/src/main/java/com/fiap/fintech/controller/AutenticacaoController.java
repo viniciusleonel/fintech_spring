@@ -2,6 +2,7 @@ package com.fiap.fintech.controller;
 
 import com.fiap.fintech.domain.usuario.DadosAutenticacao;
 import com.fiap.fintech.domain.usuario.Usuario;
+import com.fiap.fintech.infra.security.DadosTokenJWT;
 import com.fiap.fintech.infra.security.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,8 @@ public class AutenticacaoController {
         var authenticationToken = new UsernamePasswordAuthenticationToken(dados.email(), dados.senha());
         var authentication = manager.authenticate(authenticationToken);
 
-        return ResponseEntity.ok(tokenService.gerarToken((Usuario) authentication.getPrincipal()));
+        var tokenJWT = tokenService.gerarToken((Usuario) authentication.getPrincipal());
+
+        return ResponseEntity.ok(new DadosTokenJWT(tokenJWT));
     }
 }
