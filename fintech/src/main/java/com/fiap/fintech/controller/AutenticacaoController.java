@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/login")
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+@CrossOrigin(origins = {"http://127.0.0.1:5500/", "https://projeto-fintech-p5xm.vercel.app/"})
 public class AutenticacaoController {
 
     @Autowired

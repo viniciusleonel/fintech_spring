@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 @RestController
 @RequestMapping("usuarios")
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+@CrossOrigin(origins = {"http://127.0.0.1:5500/", "https://projeto-fintech-p5xm.vercel.app/", "https://jsfiddle.net/"})
 public class UsuarioController {
 
     @Autowired
