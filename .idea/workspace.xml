@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="habilitando o crossOrigin para recever dados do front">
+      <change afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/AutenticacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/AutenticacaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/TokenService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,14 +19,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -117,6 +121,8 @@
       <workItem from="1706811573189" duration="5191000" />
       <workItem from="1706891751518" duration="5668000" />
       <workItem from="1707237388920" duration="3329000" />
+      <workItem from="1707260421632" duration="736000" />
+      <workItem from="1707326295847" duration="10490000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando projeto fintech spring">
       <option name="closed" value="true" />
