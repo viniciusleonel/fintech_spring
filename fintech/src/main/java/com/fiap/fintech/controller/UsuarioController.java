@@ -2,6 +2,7 @@ package com.fiap.fintech.controller;
 
 
 import com.fiap.fintech.domain.usuario.*;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import java.util.stream.Stream;
 
 @RestController
 @RequestMapping("usuarios")
+@SecurityRequirement(name = "bearer-key")
 @CrossOrigin(origins = {"http://127.0.0.1:5500/", "https://projeto-fintech-p5xm.vercel.app/", "https://jsfiddle.net/"})
 public class UsuarioController {
 
@@ -23,7 +25,7 @@ public class UsuarioController {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    @PostMapping
+    @PostMapping("cadastrar")
     @Transactional
     public ResponseEntity cadastrar(@RequestBody @Valid DadosCadastroUsuario dados, UriComponentsBuilder uriBuilder) {
         var usuario = new Usuario(dados, passwordEncoder);
@@ -34,7 +36,7 @@ public class UsuarioController {
         return ResponseEntity.created(uri).body(new DadosDetalhamentoUsuario(usuario));
     }
 
-    @GetMapping
+    @GetMapping("listar")
     public ResponseEntity<Stream<DadosDetalhamentoUsuario>> listar() {
         var usuarios = repository.findAllByAtivoTrue().stream().map(DadosDetalhamentoUsuario::new);
         return ResponseEntity.ok(usuarios);
@@ -42,13 +44,13 @@ public class UsuarioController {
 
 
 
-    @GetMapping("/{id}")
+    @GetMapping("detalhar/{id}")
     public ResponseEntity detalhar(@PathVariable Long id){
         var usuario = repository.getReferenceById(id);
         return ResponseEntity.ok(new DadosDetalhamentoUsuario(usuario));
     }
 
-    @PutMapping
+    @PutMapping("atualizar")
     @Transactional
     public ResponseEntity atualizar(@RequestBody @Valid DadosAtualizacaoUsuario dados) {
         var usuario = repository.getReferenceById(dados.id());
@@ -57,7 +59,7 @@ public class UsuarioController {
         return ResponseEntity.ok(new DadosDetalhamentoUsuario(usuario));
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("deletar/{id}")
     @Transactional
     public ResponseEntity deletar(@PathVariable Long id) {
         var usuario = repository.getReferenceById(id);
