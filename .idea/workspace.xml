@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="Adicionando filtros e autenticando usuario">
-      <change afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SpringDocConfigurations.java" afterDir="false" />
+    <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="Adicionando documentação com spring doc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/AutenticacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/AutenticacaoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/AutenticacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/services/AutenticacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/services/TokenService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +81,7 @@
       <recent name="C:\Users\Vinícius Leonel\Documents\Estudos programação\Programas\Frameworks\Spring\fintech\fintech\src\main\resources\db\migration" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fiap.fintech.services" />
       <recent name="com.fiap.fintech.infra.exception" />
     </key>
   </component>
@@ -126,7 +129,7 @@
       <workItem from="1707237388920" duration="3329000" />
       <workItem from="1707260421632" duration="736000" />
       <workItem from="1707326295847" duration="11343000" />
-      <workItem from="1707413768180" duration="3862000" />
+      <workItem from="1707413768180" duration="7487000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando projeto fintech spring">
       <option name="closed" value="true" />
@@ -280,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707347177267</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adicionando documentação com spring doc">
+      <option name="closed" value="true" />
+      <created>1707418393288</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1707418393288</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +317,8 @@
     <MESSAGE value="salvando a senha criptografada no BD" />
     <MESSAGE value="habilitando o crossOrigin para recever dados do front" />
     <MESSAGE value="Adicionando filtros e autenticando usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando filtros e autenticando usuario" />
+    <MESSAGE value="Adicionando documentação com spring doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando documentação com spring doc" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,5 +1,6 @@
-package com.fiap.fintech.domain.usuario;
+package com.fiap.fintech.services;
 
+import com.fiap.fintech.domain.usuario.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

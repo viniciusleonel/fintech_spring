@@ -1,6 +1,7 @@
 package com.fiap.fintech.infra.security;
 
 import com.fiap.fintech.domain.usuario.UsuarioRepository;
+import com.fiap.fintech.services.TokenService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

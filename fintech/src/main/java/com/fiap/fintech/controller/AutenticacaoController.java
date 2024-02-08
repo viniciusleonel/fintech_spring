@@ -3,7 +3,7 @@ package com.fiap.fintech.controller;
 import com.fiap.fintech.domain.usuario.DadosAutenticacao;
 import com.fiap.fintech.domain.usuario.Usuario;
 import com.fiap.fintech.infra.security.DadosTokenJWT;
-import com.fiap.fintech.infra.security.TokenService;
+import com.fiap.fintech.services.TokenService;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

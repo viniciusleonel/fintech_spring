@@ -1,4 +1,4 @@
-package com.fiap.fintech.infra.security;
+package com.fiap.fintech.services;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
