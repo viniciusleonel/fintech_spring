@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="Adicionando documentação com spring doc">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/AutenticacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/AutenticacaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/AutenticacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/services/AutenticacaoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/domain/usuario/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/SecurityFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/infra/security/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech/src/main/java/com/fiap/fintech/services/TokenService.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ed43344-bc8f-4d1e-a97f-59ab3e57b4d0" name="Changes" comment="Adicionando documentação com spring doc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +54,7 @@
     "Spring Boot.FintechApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Vinícius Leonel/Documents/Estudos programação/Programas/Frameworks/Spring/api",
+    "last_opened_file_path": "C:/Users/vinicius/Desktop/my-portfolio/proj/fullstack/fintech/fintech",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,7 +98,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-19.0.2-corretto-19.0.2-f644763e9732-1e16d6ec" />
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
       </set>
     </attachedChunks>
   </component>
@@ -130,6 +122,7 @@
       <workItem from="1707260421632" duration="736000" />
       <workItem from="1707326295847" duration="11343000" />
       <workItem from="1707413768180" duration="7487000" />
+      <workItem from="1711156901292" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando projeto fintech spring">
       <option name="closed" value="true" />

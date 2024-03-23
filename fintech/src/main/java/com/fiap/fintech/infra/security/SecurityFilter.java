@@ -23,8 +23,22 @@ public class SecurityFilter extends OncePerRequestFilter {
     @Autowired
     private UsuarioRepository repository;
 
+    private static final String[] AUTH_WHITELIST = {
+            // -- Registration and Login Endpoints --
+            "/usuarios/cadastrar",
+            "/login"
+    };
+
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+        var requestURI = request.getRequestURI();
+
+        // Allow registration and login endpoints without token
+        if (isAuthWhitelisted(requestURI)) {
+            filterChain.doFilter(request, response);
+            return;
+        }
+
         var authorizationToken = recuperarToken(request);
 
         if (authorizationToken != null) {
@@ -37,6 +51,15 @@ public class SecurityFilter extends OncePerRequestFilter {
 
 
         filterChain.doFilter(request,response);
+    }
+
+    private boolean isAuthWhitelisted(String requestURI) {
+        for (String endpoint : AUTH_WHITELIST) {
+            if (requestURI.contains(endpoint)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private String recuperarToken(HttpServletRequest request) {

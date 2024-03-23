@@ -1,2 +1,2 @@
-alter table usuarios add ativo tinyint;
-update usuarios set ativo = 1;
+alter table usuarios add ativo boolean;
+update usuarios set ativo = true;
